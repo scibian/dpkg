@@ -1,3 +1,10 @@
+dpkg (1.17.27-c9+1) calibre9; urgency=low
+
+  * Import to Calibre 9.
+  * Only preallocate disk size in dpkg for unpacked files bigger than 16 KiB.
+
+ -- Scibian Project <packaging@scibian.org>  Mon, 09 Jan 2017 16:49:24 +0100
+
 dpkg (1.17.27) jessie; urgency=medium
 
   [ Guillem Jover ]
